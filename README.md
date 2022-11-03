@@ -2,38 +2,38 @@
 Nơi lưu các bài lab của môn NJS301x
 
  
-//branch lab
+# branch lab
 Tạo ra file hello.txt với nội dung Hello from node.js
-//chạy code
+# chạy code
 >node first-app.js
 
 
 
 
 
-// Gỡ bỏ tài khoản git cũ
+# Gỡ bỏ tài khoản git cũ
 >git config --global credential.useHttpPath true
 
 
-// khởi tạo
+# khởi tạo
 >git init
 
-// Tạo commit
+# Tạo commit
 >git add .
 >git commit -m "bat dau njs301x"
 
-// Tạo branch
+# Tạo branch
 >git branch -m lab
 
-// Kết nối đến kho git
+# Kết nối đến kho git
 >git remote add origin https://github.com/tin86pc/njs301x.git
 
-// Up lên kho git
+# Up lên kho git
 >git push -u origin lab
 
 
-// Xóa branch trên máy
+# Xóa branch trên máy
 >git branch -d lab
 
-// xóa branch trên kho git
+# xóa branch trên kho git
 >git push origin --delete lab
